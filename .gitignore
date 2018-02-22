@@ -1,0 +1,11 @@
+#------------------#
+# Git ignore files #
+#------------------#
+target
+.studio
+.classpath
+.project
+.settings
+mule-project.xml
+.mule
+catalog
