@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <flow name="mule-git-exampleFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
         <logger message="test git" level="INFO" doc:name="Logger"/>
+        <logger level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
